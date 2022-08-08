@@ -1,0 +1,54 @@
+body{
+    background-color: #577590;
+}
+.card-container{
+    display:flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card-1{
+    width: 300px;
+    margin:15px 50px 15px 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px black;
+}
+.card-body{
+    padding: 10px;
+    background-color: rgba(241, 135, 1);
+}
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.90em;
+    text-align: center;    
+}
+.hr{
+    margin-top: 15px;
+    background-color: #e76f51;
+}
+.card-description{
+    text-align: justify;
+    line-height: 1.20;
+}
+.card-1:hover{
+    box-shadow: 10px 10px 25px #10002b;
+}
+.title2{
+    font-size: 17px;
+}
+.body2{
+    background-color: #e63946;
+}
+.card-2:hover{
+    box-shadow: 10px 10px 25px #03045e;
+}
+.title3{
+    font-size: large;
+}
+.card-3:hover{
+    box-shadow: 10px 10px 25px #ffb703;
+}
+.body3{
+    background-color:#0a9396;
+}
